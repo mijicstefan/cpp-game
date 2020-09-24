@@ -1,2 +1,2 @@
-dresources/creatures/starSheet.png
+dresources/creatures/plants.png
 walk_right	1	64 224 32 32
