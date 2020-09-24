@@ -1,0 +1,2 @@
+resources/creatures/starSheet.png
+walk_right	1	64 96 32 32

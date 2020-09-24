@@ -1,0 +1,5 @@
+resources/creatures/duh.png
+walk_up 	3	0 0 32 32 32 0 32 32 64 0 32 32
+walk_left	3	0 32 32 32 32 32 32 32 64 32 32 32
+walk_down	3	0 64 32 32 32 64 32 32 64 64 32 32
+walk_right	3	0 96 32 32 32 96 32 32 64 96 32 32

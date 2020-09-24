@@ -1,0 +1,21 @@
+20 10
+g g g g g g g g g g
+g g g g g g g g g g
+p p p p p p p p p p
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g g g g g g g g g g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g
+g w p p p p p p e g

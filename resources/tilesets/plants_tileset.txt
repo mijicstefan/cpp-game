@@ -1,0 +1,2 @@
+resources/tilesets/plants.png
+c 64 352 32 32

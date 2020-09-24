@@ -1,0 +1,1078 @@
+# depslib dependency file v1.0
+1597422220 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\engine.cpp
+	"engine.h"
+
+1597097616 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"eventlistener.h"
+	"player.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\close_code.h
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561873968 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1597097616 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\drawable.h
+	<SDL2/sdl.h>
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\movable.h
+
+1597097618 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1597097616 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\eventlistener.h
+	<SDL2/SDL.h>
+
+1597097617 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1597189658 C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\level.cpp
+	"level.h"
+
+1597190302 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\main.cpp
+	<iostream>
+	<fstream>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\player.cpp
+	"player.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\sprite.cpp
+	"sprite.h"
+
+1597348664 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\spritesheet.cpp
+	"spritesheet.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\tile.cpp
+	"tile.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\v10-igrica\v10-igrica\resenja\RPG Game\tileset.cpp
+	"tileset.h"
+
+1597719805 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\engine.cpp
+	"engine.h"
+
+1597719216 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<time.h>
+	<iostream>
+	<sstream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"Point.h"
+	"Enemie.h"
+	"eventlistener.h"
+	"player.h"
+
+1597501955 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\drawable.h
+	<SDL2/sdl.h>
+
+1597097617 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\movable.h
+
+1597097618 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1597501895 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1597097617 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1597097617 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1597678021 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1597097616 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\eventlistener.h
+	<SDL2/SDL.h>
+
+1597625796 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1597189658 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\level.cpp
+	"level.h"
+
+1597621739 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\main.cpp
+	<iostream>
+	<fstream>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+
+1597625764 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\player.cpp
+	"player.h"
+
+1597625764 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\sprite.cpp
+	"sprite.h"
+
+1597348664 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\spritesheet.cpp
+	"spritesheet.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\tile.cpp
+	"tile.h"
+
+1597097617 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\tileset.cpp
+	"tileset.h"
+
+1597715283 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\point.cpp
+	"Point.h"
+
+1597709727 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\point.h
+	"sprite.h"
+	"player.h"
+	<math.h>
+	<time.h>
+
+1547325881 C:\Users\vasaandja\Desktop\C++Singidunum\SDL2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1597719804 source:C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\enemie.cpp
+	"Enemie.h"
+
+1597714373 C:\Users\vasaandja\Desktop\IgricaOOP2\RPG Game\enemie.h
+	"sprite.h"
+	"Point.h"
+	<math.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<fstream>
+	<sstream>
+
+1600987124 source:c:\users\user\nadagitlab\enemie.cpp
+	"Enemie.h"
+
+1600986648 c:\users\user\nadagitlab\enemie.h
+	"sprite.h"
+	"Point.h"
+	<math.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<fstream>
+	<sstream>
+
+1600974412 c:\users\user\nadagitlab\sprite.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"drawable.h"
+	"movable.h"
+	"spritesheet.h"
+
+1600974412 c:\users\user\nadagitlab\drawable.h
+	<SDL2/sdl.h>
+
+1600974412 c:\users\user\nadagitlab\movable.h
+
+1600974412 c:\users\user\nadagitlab\spritesheet.h
+	<iostream>
+	<vector>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1600974412 c:\users\user\nadagitlab\tile.h
+	<iostream>
+	<SDL2/SDL.h>
+
+1600985112 c:\users\user\nadagitlab\point.h
+	"sprite.h"
+	"player.h"
+	<math.h>
+	<time.h>
+
+1600974412 c:\users\user\nadagitlab\player.h
+	<SDL2/SDL.h>
+	"drawable.h"
+	"movable.h"
+	"keyboardeventlistener.h"
+	"sprite.h"
+
+1600974412 c:\users\user\nadagitlab\keyboardeventlistener.h
+	<SDL2/SDL.h>
+	"eventlistener.h"
+
+1600974412 c:\users\user\nadagitlab\eventlistener.h
+	<SDL2/SDL.h>
+
+1600986821 source:c:\users\user\nadagitlab\engine.cpp
+	"engine.h"
+
+1600986238 c:\users\user\nadagitlab\engine.h
+	<fstream>
+	<string>
+	<vector>
+	<map>
+	<time.h>
+	<sstream>
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"drawable.h"
+	"movable.h"
+	"tileset.h"
+	"level.h"
+	"spritesheet.h"
+	"sprite.h"
+	"Point.h"
+	"Enemie.h"
+	"eventlistener.h"
+	"player.h"
+
+1600974412 c:\users\user\nadagitlab\tileset.h
+	<iostream>
+	<map>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"tile.h"
+
+1600974412 c:\users\user\nadagitlab\level.h
+	<iostream>
+	<vector>
+	"drawable.h"
+	"tileset.h"
+
+1600974412 source:c:\users\user\nadagitlab\keyboardeventlistener.cpp
+	"keyboardeventlistener.h"
+
+1600974412 source:c:\users\user\nadagitlab\level.cpp
+	"level.h"
+
+1600984877 source:c:\users\user\nadagitlab\main.cpp
+	<iostream>
+	<fstream>
+	"engine.h"
+	"level.h"
+	"sprite.h"
+
+1600974412 source:c:\users\user\nadagitlab\player.cpp
+	"player.h"
+
+1600985160 source:c:\users\user\nadagitlab\point.cpp
+	"Point.h"
+
+1600974412 source:c:\users\user\nadagitlab\sprite.cpp
+	"sprite.h"
+
+1600974412 source:c:\users\user\nadagitlab\spritesheet.cpp
+	"spritesheet.h"
+
+1600974412 source:c:\users\user\nadagitlab\tile.cpp
+	"tile.h"
+
+1600974412 source:c:\users\user\nadagitlab\tileset.cpp
+	"tileset.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\close_code.h
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561873968 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1547325881 c:\users\user\downloads\nesto (1)\nesto\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
